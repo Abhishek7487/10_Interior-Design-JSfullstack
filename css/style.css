@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+/* Containe */
+.container {
+  height: 75rem;
+  background: url(../images/retro-living-room-interior-design.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* -------------------------------------- */
+/* ----------Section Navbar --------------*/
+/* -------------------------------------- */
+.section-navbar {
+  height: 14rem;
+  padding: 2.8rem 0;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Nav Logo */
+.logo-box {
+  align-self: flex-end;
+}
+
+/* Nav TEXT */
+.text-box {
+  display: flex;
+  gap: 6.8rem;
+  border-bottom: 3px solid #fff;
+  padding-bottom: 3.6rem;
+}
+
+/* Nav List */
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 5.6rem;
+  list-style: none;
+}
+
+.nav-list--items {
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* Nav Contact */
+.nav-contact {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-text .text,
+.contact-text .number {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+/* Section Header */
+
+.section-header {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 6.8rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+  align-items: flex-start;
+}
+
+/* ////////// */
+/* Header Top */
+/* ////////// */
+.header-top {
+  display: flex;
+  align-items: center;
+  gap: 8.8rem;
+}
+
+/* Header Heading */
+.header-heading {
+  font-size: 6.8rem;
+  font-weight: 600;
+  padding-right: 10rem;
+}
+
+/* TOP BLOCK */
+.header-top-block {
+  height: 24rem;
+  width: 50rem;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.top-box {
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.icon-top {
+  align-self: flex-start;
+  color: #000;
+  background-color: #fff;
+  padding: 0.6rem 3.6rem;
+  border-radius: 5rem;
+}
+
+.top-text {
+  align-self: flex-start;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.line-top {
+  height: 7rem;
+  padding: 0.1rem;
+  background-color: #fff;
+  position: absolute;
+  bottom: 2rem;
+  right: 11rem;
+}
+
+.circle-top {
+  height: 1rem;
+  width: 1rem;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 10rem;
+}
+
+/* ///////////// */
+/* Header Bottom */
+/* //////////// */
+
+.header-bottom {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30rem;
+}
+
+/* Header Button */
+.header-button .btn-header {
+  width: 60%;
+  display: block;
+  color: #fff;
+  background-color: transparent;
+  border: 3px solid #fff;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-weight: 600;
+  padding: 1.6rem 2.8rem;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+/* BOTTOM BLOCK */
+.header-bottom-block {
+  width: 40rem;
+  align-self: flex-start;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.bottom-box {
+  width: 65%;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.icon-bottom {
+  align-self: flex-start;
+  color: #000;
+  background-color: #fff;
+  padding: 0.6rem 3.6rem;
+  border-radius: 5rem;
+}
+
+.bottom-text {
+  align-self: flex-start;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.line-bottom {
+  height: 7rem;
+  padding: 0.1rem;
+  background-color: #fff;
+  transform: rotate(90deg);
+  position: absolute;
+  bottom: 5rem;
+  right: 10.5rem;
+}
+
+.circle-bottom {
+  height: 1rem;
+  width: 1rem;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  bottom: 7.5rem;
+  right: 5.2rem;
+}
