@@ -388,9 +388,13 @@ body {
     gap: 2.4rem;
   }
 
+  .header-heading {
+    font-size: 3rem;
+  }
+
   .header-top-block {
     width: 45rem;
-    margin: 0 auto;
+    margin: 0;
   }
 
   .top-box {
@@ -417,7 +421,7 @@ body {
   .header-bottom {
     grid-template-columns: 1fr;
     place-items: center;
-    margin: 0 auto;
+    margin: 0;
     gap: 8.6rem;
   }
 
@@ -431,12 +435,13 @@ body {
   }
 
   .header-bottom-block {
-    width: 45rem;
+    width: 40rem;
   }
 
   .bottom-box {
     width: 75%;
     text-align: center;
+    padding: 2.4rem 1.2rem;
   }
 
   .bottom-box i {
@@ -445,9 +450,14 @@ body {
 
   .line-bottom {
     right: 7.6rem;
+    height: 5rem;
   }
 
   .circle-bottom {
-    right: 2.4rem;
+    bottom: 6.5rem;
+    right: 3.4rem;
   }
+}
+
+@media screen {
 }
