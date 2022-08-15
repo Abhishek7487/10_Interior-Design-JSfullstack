@@ -17,7 +17,6 @@ body {
 
 /* Containe */
 .container {
-  height: 75rem;
   background: url(../images/retro-living-room-interior-design.jpg);
   background-size: cover;
   background-position: center;
@@ -28,10 +27,7 @@ body {
 /* ----------Section Navbar --------------*/
 /* -------------------------------------- */
 .section-navbar {
-  height: 14rem;
-  padding: 2.8rem 0;
-  max-width: 1400px;
-  margin: 0 auto;
+  padding: 3.4rem 4.8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,8 +38,12 @@ body {
   align-self: flex-end;
 }
 
+.logo-box img {
+  height: 6.4rem;
+}
+
 /* Nav TEXT */
-.text-box {
+.navbar-text--box {
   display: flex;
   gap: 6.8rem;
   border-bottom: 3px solid #fff;
@@ -86,9 +86,7 @@ body {
 /* Section Header */
 
 .section-header {
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 6.8rem 0;
+  padding: 7.8rem 6.8rem;
   display: flex;
   flex-direction: column;
   gap: 4.8rem;
@@ -243,4 +241,213 @@ body {
   position: absolute;
   bottom: 7.5rem;
   right: 5.2rem;
+}
+
+/* ----------------MEDIA QUERIES--------------------- */
+
+@media screen and (max-width: 1346px) {
+  .top-box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  html {
+    font-size: 54.5%;
+  }
+
+  .section-navbar {
+    padding: 3.6rem 4.6rem;
+  }
+  .section-header {
+    padding: 12.8rem 6.8rem;
+  }
+}
+
+@media screen and (max-width: 1105px) {
+  html {
+    font-size: 50.5%;
+  }
+
+  .section-navbar {
+    padding: 4.6rem;
+  }
+
+  .section-header {
+    padding: 16.8rem 6.8rem;
+  }
+}
+
+@media screen and (max-width: 1018px) {
+  .section-navbar {
+    border-bottom: 3px solid #fff;
+    padding: 2.4rem 3.6rem;
+  }
+
+  .logo-box {
+    align-self: center;
+  }
+
+  .navbar-text--box {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .navbar-text--box .nav-list .nav-list--items:nth-child(2),
+  .navbar-text--box .nav-list .nav-list--items:nth-child(4) {
+    display: none;
+  }
+
+  .header-top {
+    gap: 2.4rem;
+  }
+
+  .header-heading {
+    padding: 0;
+  }
+
+  .header-bottom {
+    gap: 16rem;
+  }
+
+  .header-button .btn-header {
+    width: 80%;
+    font-size: 2.4rem;
+    font-weight: 600;
+    padding: 1.6rem 2.8rem;
+    border-radius: 5rem;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .logo-box img {
+    height: 4rem;
+  }
+
+  .navbar-text--box {
+    gap: 2.8rem;
+  }
+
+  .nav-list {
+    gap: 2.4rem;
+  }
+
+  .section-header {
+    padding: 16.8rem 2.4rem;
+  }
+
+  .header-top {
+    gap: 0;
+  }
+
+  .header-heading {
+    font-size: 4.8rem;
+  }
+
+  .top-box {
+    align-self: flex-end;
+    width: 80%;
+  }
+
+  .line-top {
+    bottom: -1.8rem;
+  }
+
+  .circle-top {
+    bottom: -2rem;
+  }
+
+  .top-text,
+  .bottom-text {
+    font-size: 1.8rem;
+  }
+
+  .header-bottom {
+    gap: 6rem;
+  }
+
+  .header-button .btn-header {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .section-header {
+    padding: 12rem 3rem;
+    gap: 0;
+  }
+
+  .section-navbar .navbar-text--box .nav-list {
+    display: none;
+  }
+
+  .header-top {
+    flex-direction: column;
+    text-align: center;
+    gap: 2.4rem;
+  }
+
+  .header-top-block {
+    width: 45rem;
+    margin: 0 auto;
+  }
+
+  .top-box {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .top-box i {
+    align-self: center;
+  }
+
+  .line-top {
+    transform: rotate(90deg);
+    right: 41.5rem;
+    bottom: 7.5rem;
+    height: 6.4rem;
+  }
+
+  .circle-top {
+    left: -1.6rem;
+    bottom: 9.6rem;
+  }
+
+  .header-bottom {
+    grid-template-columns: 1fr;
+    place-items: center;
+    margin: 0 auto;
+    gap: 8.6rem;
+  }
+
+  .header-button {
+    width: 75%;
+    order: 2;
+  }
+
+  .header-button .btn-header {
+    width: 100%;
+  }
+
+  .header-bottom-block {
+    width: 45rem;
+  }
+
+  .bottom-box {
+    width: 75%;
+    text-align: center;
+  }
+
+  .bottom-box i {
+    align-self: center;
+  }
+
+  .line-bottom {
+    right: 7.6rem;
+  }
+
+  .circle-bottom {
+    right: 2.4rem;
+  }
 }
