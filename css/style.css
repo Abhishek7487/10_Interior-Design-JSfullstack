@@ -383,6 +383,7 @@ body {
   }
 
   .header-top {
+    width: 100%;
     flex-direction: column;
     text-align: center;
     gap: 2.4rem;
@@ -394,7 +395,7 @@ body {
 
   .header-top-block {
     width: 45rem;
-    margin: 0;
+    margin: 0 auto;
   }
 
   .top-box {
@@ -419,6 +420,7 @@ body {
   }
 
   .header-bottom {
+    width: 100%;
     grid-template-columns: 1fr;
     place-items: center;
     margin: 0;
@@ -426,7 +428,7 @@ body {
   }
 
   .header-button {
-    width: 75%;
+    width: 50%;
     order: 2;
   }
 
